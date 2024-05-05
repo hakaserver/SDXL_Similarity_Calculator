@@ -20,4 +20,3 @@ To compare __one checkpoint__ to multiple checkpoints, pass the base checkpoint 
 
 You can iterate through multiple checkpoints in a specific folder using terminal commands, for example:\
 `python Similarity_Calculator_XL.py 'path\to\base_checkpoint.safetensors (ls 'path\to\folder\*.safetensors | %{ $_.FullName })`
-
